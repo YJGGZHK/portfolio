@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - build
+      - main
 
 permissions:
   contents: write
