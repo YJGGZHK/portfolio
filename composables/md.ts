@@ -72,7 +72,7 @@ export function useMarkdown(options: MarkdownOptions = {}) {
     }
     return hljs.highlightAuto(code).value;
   };
-
+  //1
   // 配置marked选项
   marked.setOptions({
     renderer,
