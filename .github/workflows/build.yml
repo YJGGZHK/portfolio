@@ -29,5 +29,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist # 构建输出目录
+          folder: .output/public # Nuxt 静态输出目录
           branch: gh-pages # 部署分支
